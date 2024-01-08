@@ -2,7 +2,7 @@
   <aside class="aside">
     <ul class="list">
       <li class="list__item"> <router-link to="/">Главная</router-link></li>
-      <li class="list__item"> <router-link to="/">Категории</router-link></li>
+      <li class="list__item"> <router-link to="/categories">Категории</router-link></li>
     </ul>
   </aside>
 </template>
@@ -17,6 +17,7 @@ export default {
 .aside {
   background: linear-gradient(150deg, #04041A, #15164D);
   color: #fff;
+  grid-area: aside;
 }
 .list {
   display: flex;
@@ -30,4 +31,5 @@ export default {
     }
   }
 }
+
 </style>

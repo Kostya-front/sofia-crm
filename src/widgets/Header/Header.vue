@@ -18,6 +18,7 @@ import SecondaryButton from '../../shared/ui/SecondaryButton/SecondaryButton.vue
 .header {
   padding: 15px 0;
   background: linear-gradient(45deg, #04041A, #15164D);
+  grid-area: header;
 }
 .container {
   display: flex;
